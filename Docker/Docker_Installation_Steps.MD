@@ -28,6 +28,12 @@
    ```sh
    docker run -d --name test-tomcat-server -p 8090:8080 tomcat:latest
    ```
+### 404 error fix for official tomcat docker image
+1. docker exec -it test-tomcat-server /bin/bash
+2. mv webapps webapps2
+3. mv webapps.dist/ webapps
+4. exit
+
 
 ## Docker Installation on CentOS server
 ##### Referance URL : https://docs.docker.com/install/linux/docker-ce/centos/#install-using-the-repository
