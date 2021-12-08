@@ -9,6 +9,7 @@
     unzip awscli-bundle.zip
     #sudo apt-get install unzip - if you dont have unzip in your system
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+    aws --version
     ```
    #Pytnon 2.7 is not supported by AWSCLI, it should be Python 3.6 or higher, if python3 installed already use following commands:
    
