@@ -11,8 +11,10 @@
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
     ```
    #Pytnon 2.7 is not supported by AWSCLI, it should be Python 3.6 or higher, if python3 installed already use following commands:
-   sudo ln -s /usr/bin/python3 /usr/bin/python
-   sudo apt install python3-distutils -y
+   
+      sudo ln -s /usr/bin/python3 /usr/bin/python
+   
+      sudo apt install python3-distutils -y
    
    
 1. Install kubectl on ubuntu instance
