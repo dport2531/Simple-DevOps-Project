@@ -5,13 +5,14 @@
 1. install AWSCLI
    ```sh
     curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
-    apt install unzip python
+    apt install unzip python3 python3-distutils
     unzip awscli-bundle.zip
     #sudo apt-get install unzip - if you dont have unzip in your system
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
     ```
    #Pytnon 2.7 is not supported by AWSCLI, it should be Python 3.6 or higher, if python3 installed already use following commands:
    sudo ln -s /usr/bin/python3 /usr/bin/python
+   sudo apt install python3-distutils -y
    
    
 1. Install kubectl on ubuntu instance
